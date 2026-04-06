@@ -20,9 +20,6 @@ const Navbar = () => {
     <nav className="bg-navbar sticky top-0 z-50 shadow-md">
       <div className="container mx-auto flex items-center justify-between px-4 py-3">
         <Link to="/" className="flex items-center gap-2">
-          <div className="w-8 h-8 bg-primary rounded-full flex items-center justify-center">
-            <span className="text-primary-foreground font-bold text-sm">B</span>
-          </div>
           <span className="font-heading text-xl font-bold text-navbar-foreground">
             Beulah Health Group
           </span>
