@@ -17,7 +17,7 @@ const Navbar = () => {
   const location = useLocation();
 
   return (
-    <nav className="bg-navbar sticky top-0 z-50 shadow-md">
+    <nav className="bg-navbar shadow-md">
       <div className="container mx-auto flex items-center justify-between px-4 py-3">
         <Link to="/" className="flex items-center gap-2">
           <span className="font-heading text-xl font-bold text-navbar-foreground">
